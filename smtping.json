@@ -1,0 +1,22 @@
+{
+    "version": "1.1.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/smtping/smtping-go/releases/download/v1.1.0/smtping_windows_amd64.zip",
+            "bin": [
+                "smtping.exe"
+            ],
+            "hash": "8daf485f7ec57873ebc25a0ba3b50c43134c14effb871aa303bb7f25b61c38e7"
+        },
+        "arm64": {
+            "url": "https://github.com/smtping/smtping-go/releases/download/v1.1.0/smtping_windows_arm64.zip",
+            "bin": [
+                "smtping.exe"
+            ],
+            "hash": "645a6b28eabcac0ec6902365e990da48bf4c707047722a25598b9fcd23e7c655"
+        }
+    },
+    "homepage": "https://smtping.com/cli",
+    "license": "MIT",
+    "description": "Verify email addresses and lists from the terminal with SMTPing"
+}
